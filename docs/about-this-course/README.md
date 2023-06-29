@@ -20,10 +20,6 @@ This course is split into a couple of larger parts:
 
 The GitHub repo of this course is available at [https://github.com/ronnymees/base2ace](https://github.com/ronnymees/base2ace). Feel free to contribute or report spelling errors, unclear explanations or others concerns/ideas.
 
-## Requirements
-
-To follow along you will at least need to install Visual Studio (Community edition is fine) and git. You can find a tutorial for the installation of both in the [Software Installation Guide @ http://software-installation-guide.netlify.app/](http://software-installation-guide.netlify.app/).
-
 ## About this course
 
 This course is not about learning to use all sorts of tools or fancy integrated development environments (IDEs). It's also not about learning to manage projects or design methodologies.
