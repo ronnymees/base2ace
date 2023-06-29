@@ -18,7 +18,7 @@ This course is split into a couple of larger parts:
 - **WPF**: introduces the Windows Presentation Foundation framework, which allows you to create beautiful graphical applications
 - **Tutorials**: some walkthroughs of applications that were build over the years
 
-The GitHub repo of this course is available at [https://github.com/BioBoost/course_programming_from_base_to_ace](https://github.com/BioBoost/course_programming_from_base_to_ace). Feel free to contribute or report spelling errors, unclear explanations or others concerns/ideas.
+The GitHub repo of this course is available at [https://github.com/ronnymees/base2ace](https://github.com/ronnymees/base2ace). Feel free to contribute or report spelling errors, unclear explanations or others concerns/ideas.
 
 ## Requirements
 
@@ -50,11 +50,11 @@ The LABs are there to practice what you have learned in the lessons. You will ge
 
 There may be occasions for tests but these will mostly be announced.
 
-To practice for these evaluations, many challenges were created for you to solve. You can find them at [https://github.com/BioBoost/csharp_practical](https://github.com/BioBoost/csharp_practical). As a student, you should however get your own copy of these challenges via GitHub Classroom as described on Toledo.
+To practice for these evaluations, many challenges were created for you to solve. Follow the instructions on Toledo to get your own copy of these challenges via GitHub Classroom.
 
 ### ECTS
 
-For the exact details on the LABs, exams and tests you should take a look at the ECTS fiche of this course which can be found via [http://onderwijsaanbod.vives-noord.be/syllabi/n/B3N066N.htm#activetab=doelstellingen_idp13827904](http://onderwijsaanbod.vives-noord.be/syllabi/n/B3N066N.htm#activetab=doelstellingen_idp13827904) for Introduction to Programming and via [http://onderwijsaanbod.vives-noord.be/syllabi/n/B3N005N.htm#activetab=doelstellingen_idm2920400](http://onderwijsaanbod.vives-noord.be/syllabi/n/B3N005N.htm#activetab=doelstellingen_idm2920400) for Object Oriented Programming 1.
+For the exact details on the LABs, exams and tests you should take a look at the ECTS fiche of this course which can be found via [http://onderwijsaanbod.vives-noord.be/syllabi/n/B3N066N.htm](http://onderwijsaanbod.vives-noord.be/syllabi/n/B3N066N.htm) for Introduction to Programming and via [http://onderwijsaanbod.vives-noord.be/syllabi/n/B3N005N.htm](http://onderwijsaanbod.vives-noord.be/syllabi/n/B3N005N.htm) for Object Oriented Programming 1.
 
 ## Extra practice
 

@@ -3,6 +3,7 @@ const { defaultTheme } = require('@vuepress/theme-default')
 const { registerComponentsPlugin } = require('@vuepress/plugin-register-components')
 const { path } = require('@vuepress/utils')
 
+
 module.exports = {
   lang: 'en-US',
   title: 'Programming - From Base to Ace',
@@ -12,13 +13,20 @@ module.exports = {
     logo: '/images/logo.svg',
     navbar: [
       { text: 'Toledo', link: 'https://toledo.kuleuven.be/portal' },
-      { text: 'Report Issue', link: 'https://github.com/BioBoost/course_programming_from_base_to_ace/issues' },
-      { text: 'Organization', link: 'https://github.com/vives-intro-to-programming-2022-2023' }
+      { text: 'Report Issue', link: 'https://github.com/ronnymees/base2ace/issues' },
+      { text: 'Organization', link: 'https://www.vives.be' }
     ],
     sidebar: [
       {
         text: 'About this Course',
         link: '/about-this-course/README.md',
+      },
+      {
+        text: 'Developper tools',
+        children: [
+           '/00-visual-studio-community/README.md',
+           '/00-git/README.md',           
+        ]
       },
       {
         text: 'Introduction to Programming',
@@ -79,7 +87,7 @@ module.exports = {
       },
     ],
     sidebarDepth: 1,
-    repo: 'BioBoost/course_programming_from_base_to_ace',
+    repo: 'ronnymees/base2ace',
     docsDir: 'docs',
     docsBranch: 'master'
   }),
