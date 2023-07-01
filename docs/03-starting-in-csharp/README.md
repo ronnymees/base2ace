@@ -30,9 +30,17 @@ Let's jump right in and create a "Hello World" application in C#.
 Naming things correctly is one of the main responsibilities of a programmer. By giving things (applications, variables, methods, ...) decent names, you will make your own life and that of fellow programmers a lot easier.
 :::
 
-Open Visual Studio and create a new project of the type `Console Application (.NET Core)`. Give it a sensible name such as `HelloWorld`.
+Open Visual Studio and create a new project of the type `Console App` (just type `console` in the searchbar and `c#` in the filter).
 
-![Creating a Console Application in .NET Core](./img/console_app_project_vs.png)
+![Creating a Console Application](./img/create-new-project.png)
+
+Give it a sensible name such as `HelloWorld`.
+
+![Configure your Console Application](./img/console_app_project_vs.png)
+
+::: warning 🔥Important!
+Make sure to select `.NET 6` and `Use top-level statements` before you hit `Create`.
+:::
 
 ::: tip ⌨️ Console Applications
 When developing applications, a choice must be made between a GUI and a console application. As discussed earlier, a console application has no real graphical user interface and interacts with the user via the terminal (console). The default options for input and output are essentially text. This course will first focus on console applications after which it will introduce WPF allowing the creation of graphical applications.

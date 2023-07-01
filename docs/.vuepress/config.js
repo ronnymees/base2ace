@@ -22,7 +22,7 @@ module.exports = {
         link: '/about-this-course/README.md',
       },
       {
-        text: 'Developper tools',
+        text: 'Developer tools',
         children: [
            '/00-visual-studio-community/README.md',
            '/00-git/README.md',           
