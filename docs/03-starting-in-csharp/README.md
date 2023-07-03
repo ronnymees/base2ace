@@ -39,7 +39,7 @@ Give it a sensible name such as `HelloWorld`.
 ![Configure your Console Application](./img/console_app_project_vs.png)
 
 ::: warning 🔥Important!
-Make sure to select `.NET 6` and `Use top-level statements` before you hit `Create`.
+Make sure to select `.NET 6` and `Do not use top-level statements` before you hit `Create`.
 :::
 
 ::: tip ⌨️ Console Applications
