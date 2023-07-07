@@ -32,11 +32,9 @@ Click **Continue** to install prerequisites and allow the actual installer to ru
 
 Next you will need to select what components should be installed. Make sure to select the following:
 
-- `.NET desktop development` (top left within the *Desktop & Mobile* section)
-- `.NET Core cross-platform development` (bottom right in the *Other Toolsets* section)
+- `.NET desktop development` (within the *Desktop & Mobile* section)
 
 ![](./images/step-03a-desktop.png)
-![](./images/step-03b-core.png)
 
 This will require about 8GB of space. You can change the installation location if you use a different drive for software installations. If not, leave it at its default location.
 
