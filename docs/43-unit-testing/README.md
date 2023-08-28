@@ -3,15 +3,7 @@ description: Testing code is important to make sure no bugs are introduced
 title: 43 - Unit Testing
 ---
 
-::: danger ☠️ First draft
-Please note that this chapter is not finished yet. It may contain errors, typos, irregularities and even unfinished sections.
-:::
-
 # Chapter 43 - Unit Testing
-
-::: warning Early draft
-This chapter is an early draft.
-:::
 
 Unit Testing is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected. Unit Testing is most often done during the development (coding phase) of an application by the developers.
 

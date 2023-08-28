@@ -3,10 +3,6 @@ description: Composition allows an object to be composed of other objects.
 title: 27 - Composition
 ---
 
-::: danger ☠️ First draft
-Please note that this chapter is not finished yet. It may contain errors, typos, irregularities and even unfinished sections.
-:::
-
 <!-- Source: https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/ -->
 
 # Chapter 27 - Composition

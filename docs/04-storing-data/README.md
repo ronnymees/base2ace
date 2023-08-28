@@ -3,7 +3,7 @@ description: A computer program typically stores data. This chapter focusses on 
 title: 04 - Storing Data
 ---
 
-<slides link="/slides/slides-chapter-04" />
+<!-- <slides link="/slides/slides-chapter-04" /> -->
 
 # Chapter 04 - Storing Data
 

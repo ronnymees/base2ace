@@ -5,7 +5,7 @@ title: 42 - Creating Libraries
 
 # Chapter 42 - Creating Libraries
 
-TODO: Need a nice image here
+<!-- TODO: Need a nice image here -->
 
 Sharing libraries between projects is a fundamental requirement in all but the most simple applications. This chapter looks at how to create a library that can be shared between applications.
 

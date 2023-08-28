@@ -5,10 +5,6 @@ title: Terminal Selection Menu
 
 <!-- TODO: Turn it into a library that we can use in other apps -->
 
-::: danger ☠️ First draft
-Please note that this is a very early first draft. It may contain errors, typos, irregularities and even unfinished sections.
-:::
-
 # Tutorial - Terminal Selection Menu
 
 This tutorial will guide you through the process of making a dynamic selection menu for a terminal application that can be controlled using the arrow-keys.

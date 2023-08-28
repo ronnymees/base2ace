@@ -3,10 +3,6 @@ description: This chapter introduces data hiding and the tools that support it
 title: 25 - Getters, Setters and Properties
 ---
 
-::: danger ☠️ First draft
-Please note that this chapter is a first draft and may still contain errors, typo's or irregularities.
-:::
-
 # Chapter 25 - Getters, Setters and Properties
 
 While perfectly legal, in most cases it is considered blasphemy to make attributes `public` unless they are `const`.
