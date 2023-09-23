@@ -209,6 +209,8 @@ The second prerequisite to becoming a programmer is **knowing a programming lang
 
 In both these areas, **practice is essential**. Exposure to a wide variety of problems and tools to solve them will increase your understanding of the field as a whole, to judge for yourself the relative merit of techniques in the field, as well as to discover unique, new approaches to addressing the problems of computer science. As with the practice of any new skill, do not be afraid to make mistakes, to redo earlier work, or to stumble along the way to expertise.
 
+![learning by mistakes](./img/learning-by-mistakes.jpg)
+
 **Don't be afraid to make mistakes** because you will make them - constantly and for the rest of your career. Even the best programmers make mistakes regularly (if they try to say differently then they are either lying or deluded). Making mistakes is really part of the programming process. Someone said, to find a solution to a problem you must partly solve the problem. So you'll probably end up rewriting parts of your programs several times. Part of what distinguishes better programmers is their ability to catch at least some mistakes before they become a problem. Nobody can catch them all without help. Well, nobody can catch them all: there is no bug-free program.
 
 > An expert is a man who has made all the mistakes which can be made, in a narrow field.
