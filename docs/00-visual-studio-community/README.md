@@ -59,3 +59,54 @@ Wait a minute for the setup to finish.
 You are all set now.
 
 ![](./images/step-08-all-set.png)
+
+## Troubleshooting
+
+Known issues with Visual Studio Community:
+
+<details>
+<summary>xUnit Framework not Found</summary>
+
+###   xUnit Framework not Found
+If you get an error stating the the xUnit Framework cannot be found, you should check the NuGet package manager sources.
+
+Traverse to `Tools => NuGet Package Manager => Package Manager Settings`. Next select the `Package Sources` entry as option (left side). It should contain the `nuget.org` package source as shown in the next screenshot:
+
+![nuget.org source](./images/nuget_package_source.png)
+
+If it does not exists, add it with the following settings:
+
+* **Name:** `nuget.org`
+* **Source:** `https://api.nuget.org/v3/index.json`
+
+You may need to restart Visual Studio.
+</details>
+
+<details>
+<summary>Attach button instead of Run</summary>
+
+###   Attach button instead of Run
+
+It may happen that when creating a new project or opening an existing project, you do not see any information in the solution explorer and the Run/Debug button has also been changed to an Attach button.
+
+To resolve this you need to correct the environmental variables on your device.
+
+Click on the windows key and start typing Edit the system variables and click on that option
+
+![](./images/environment-variables.png)
+
+Click on the Environment Variables button
+
+![](./images/environment-variables-button.png)
+
+Under the System variables, select Path and click the Edit button
+
+![](./images/edit-system-variables.png)
+
+Find the entry C:\Program Files\dotnet\dotnet.exe and using the Move up button, leave that entry before the x86 one. Here's my machine for example:
+
+![](./images/x64-before-x86.png)
+
+Click the OK button until all the windows are closed. Open a new command prompt and run `where dotnet`. This should bring the non x86 first and you should be able to use the SDK now.
+
+</details>
