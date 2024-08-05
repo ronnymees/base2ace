@@ -7,13 +7,13 @@
     "doc": "docs"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
     "slides:build": "find . -name \"slides*.md\" -exec npx @marp-team/marp-cli@latest '{}' --pdf --allow-local-files \\; && find . -name \"slides*.pdf\" -exec mv '{}' ./docs/.vuepress/public/slides \\;"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BioBoost/course_programming_from_base_to_ace.git"
+    "url": "git+https://github.com/ronnymees/base2ace.git"
   },
   "keywords": [
     "csharp",
@@ -21,12 +21,12 @@
     "course",
     "VIVES"
   ],
-  "author": "Nico De Witte <aka BioBoost>",
+  "author": "Nico De Witte <aka BioBoost> & Ronny Mees",
   "license": "SEE LICENSE IN README.md",
   "bugs": {
-    "url": "https://github.com/BioBoost/course_programming_from_base_to_ace/issues"
+    "url": "https://github.com/ronnymees/base2ace/issues"
   },
-  "homepage": "https://github.com/BioBoost/course_programming_from_base_to_ace#readme",
+  "homepage": "https://github.com/BioBoost/course_programming_from_base_to_acehttps://github.com/ronnymees/base2ace#readme",
   "devDependencies": {
     "@marp-team/marp-cli": "^2.1.2",
     "@vuepress/plugin-container": "^2.0.0-beta.49",

@@ -296,7 +296,7 @@ public class Person
     Name = name;
   }
 
-  public String Email()
+  public virtual String Email()
   {
     return Name.ToLower().Replace(' ', '.')
       + "@vives.be";
