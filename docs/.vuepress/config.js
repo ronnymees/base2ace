@@ -25,6 +25,7 @@ module.exports = {
         text: 'Developer tools',
         children: [
            '/00-visual-studio-community/README.md',
+           '/00-visual-code/README.md',
            '/00-git/README.md',           
         ]
       },

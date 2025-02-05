@@ -198,6 +198,19 @@ You may be asked to install the NuGet package manager before continueing. Answer
 
 ![](./images/step-06-install-posh-git.png)
 
+If you don't get asked to install NuGet but get an error instead, then use the following commands to install NuGet first and then try installing again with the command above.
+
+```powershell
+Install-PackageProvider NuGet -Force
+Import-PackageProvider NuGet -Force
+```
+
+Now you can update posh-git to the lastest version with:
+
+```powershell
+Update-Module posh-git
+```
+
 ### Using posh-git
 
 After you have installed posh-git, you need to configure your PowerShell session to use the posh-git module.
@@ -205,8 +218,12 @@ After you have installed posh-git, you need to configure your PowerShell session
 This can be easily achieved by issueing the command:
 
 ```powershell
-Add-PoshGitToProfile
+Add-PoshGitToProfile -AllHosts 
 ```
+
+:::tip Note
+Only use the `-AllHosts` option if you want posh-git to be added to all commandline hosts
+:::
 
 ![](./images/step-07-add-to-profile.png)
 
