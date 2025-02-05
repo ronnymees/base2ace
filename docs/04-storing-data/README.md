@@ -299,5 +299,16 @@ A single character is placed between single quotes `'`, while strings are placed
 Literals are the values that are literally used inside source code. Examples are `"Hello World", 13, -154, 'X', 0x23`. They are mostly used for the initialization of variables. Note that the hexadecimal notation of literals can also be used when for example assigning integral values to variables.
 :::
 
+## Constants
+
+So what about information that doesn't change during the program? That we call **constants** and we will specify that in the declaration as follows.
+
+```csharp
+const string ApiKey = "12ER78FS2x10q";
+const int Limit = 25;
+```
+
+The naming convention for constants is **PascalCasing** in stead of camelCasing for local variables.
+
 <!-- Left Overs -->
 <!-- https://www.youtube.com/watch?v=PZRI1IfStY0&t=3s -->

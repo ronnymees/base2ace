@@ -391,3 +391,17 @@ The third row of the class rectangle is this time populated with a list of metho
 Both methods are `public` so they are preceded with a plus sign `+`.
 
 The `Move()` method takes two arguments. Both arguments are separated using a comma. The argument themselves are represented by their name, a colon `:` followed by their type.
+
+
+## List of objects
+
+What if you need a list of this object(class)?
+
+You can use the syntax `List<T>` where `T` stands for a datatype. So that can be a int or double but also a class you made.
+
+Should we want a list of points we could declare that as follows.
+
+```csharp
+List<Point> points = new();
+```
+
