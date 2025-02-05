@@ -1,7 +1,7 @@
 ---
 home: true
 navbar: false
-heroImage: /images/devbit.png
+heroImage: /images/c_sharp_logo.png
 heroText: Programming - From Base to Ace
 tagline: A CSharp Programming Course for VIVES University of Applied Sciences (Bachelor Degree)
 actions:
