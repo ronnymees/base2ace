@@ -1,11 +1,4 @@
----
-description: This chapter will sketch a scene for the reader what computer programming is all about. It will introduce terms such as application, compiler, interpreter and such.
-title: 01 - Introduction to Computer Programming
----
-
-<!-- <slides link="/slides/slides-chapter-01" /> -->
-
-# Chapter 01 - Introduction to Computer Programming
+# 01 - Computer Programming
 
 ![How does Computer Programming work](./img/how_does_it_work.png)
 

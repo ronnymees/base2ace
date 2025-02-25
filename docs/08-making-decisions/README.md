@@ -469,3 +469,17 @@ switch (dayOfTheWeek)
 As a starting programmer you may struggle a bit in the beginning on how to express more complex decision making structures. The choice is not always easy and depends a lot on the problem you are trying to solve. If you have more than 1 option in mind, consider using the one that is more clear and readable.
 
 No general rule exists for when to use which construct. Some programmers don't like the `switch` statement. In most cases it is a case of preference.
+
+## The ternary operator
+
+The conditional operator `?:`, also known as the ternary conditional operator, evaluates a Boolean expression and returns the result of one of the two expressions, depending on whether the Boolean expression evaluates to `true` or `false`, as the following example shows:
+
+```csharp
+string Weather = temperature < 20 ? "Cold" : "Perfect";
+```
+
+As the preceding example shows, the syntax for the conditional operator is as follows:
+```csharp
+condition ? consequent : alternative
+```
+

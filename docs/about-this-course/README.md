@@ -20,39 +20,29 @@ This course is split into a couple of larger parts:
 
 The GitHub repo of this course is available at [https://github.com/ronnymees/base2ace](https://github.com/ronnymees/base2ace). Feel free to contribute or report spelling errors, unclear explanations or others concerns/ideas.
 
-## About this course
+**What will you learn?**
 
-This course is not about learning to use all sorts of tools or fancy integrated development environments (IDEs). It's also not about learning to manage projects or design methodologies.
+In this course is not about learning to use all sorts of tools or fancy integrated development environments (IDEs). It's also not about learning to manage projects or design methodologies.
 
-The main focus lies in learning to think in an object oriented way and in the meantime learn some object oriented languages. While learning all these great things about objects we are not responsible for the fact that you might learn a thing or two about tools and project management.
+**The main focus lies in learning to think in an object oriented way** and in the meantime learn some object oriented languages. While learning all these great things about objects we are not responsible for the fact that you might learn a thing or two about tools and project management.
 
 ![CommitStrip - The mistakes of youth](./img/commitstrip.jpg)
 
-### Keep Learning
+**Expand your knowledge & resources**
 
 Most of the ideas, knowledge and understanding is achieved by reading books, tutorials and watching YouTube videos. It can only be encouraged to read books and broaden your horizon. Challenge yourself and others with your newly acquired knowledge.
 
 But don't only become book-smart. Also become do-smart. Make exercises, solve problems, create programs, beat challenges, test new things, ... You cannot become a programmer without actually programming yourself.
 
-### Theory
-
 While all you need to know for the exam is in this course, not all you should know is in here. **It is extremely preferable to take notes in the lessons.** And of course you are also encouraged to search the Internet and books for extra knowledge.
 
 Feel free to ask questions in the lessons or via email.
 
-### LABs, assignments and tests
-
 The LABs are there to practice what you have learned in the lessons. You will get some assignments through the semester on which you will be graded.
-
-There may be occasions for tests but these will mostly be announced.
 
 To practice for these evaluations, many challenges were created for you to solve. Follow the instructions on Toledo to get your own copy of these challenges via GitHub Classroom.
 
-### ECTS
-
-For the exact details on the LABs, exams and tests you should take a look at the ECTS fiche of this course which can be found via [http://onderwijsaanbod.vives-noord.be/syllabi/n/B3N066N.htm](http://onderwijsaanbod.vives-noord.be/syllabi/n/B3N066N.htm) for Introduction to Programming and via [http://onderwijsaanbod.vives-noord.be/syllabi/n/B3N005N.htm](http://onderwijsaanbod.vives-noord.be/syllabi/n/B3N005N.htm) for Object Oriented Programming 1.
-
-## Extra practice
+**Extra practice**
 
 While this course does contain a lot of exercises and things to try, you are encouraged to find extra practice or inspiration on the Internet. Some other good sources are:
 
@@ -61,6 +51,6 @@ While this course does contain a lot of exercises and things to try, you are enc
 
 While many of these have solutions available, they have not been checked and approved by the teacher of this course. Be critical about the solutions and try to apply the things you have learned in this course.
 
-## License
+**License**
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

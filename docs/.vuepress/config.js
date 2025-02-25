@@ -18,8 +18,10 @@ module.exports = {
     ],
     sidebar: [
       {
-        text: 'About this Course',
-        link: '/about-this-course/README.md',
+        text: 'Introduction',
+        children: [
+          '/about-this-course/README.md',
+        ]
       },
       {
         text: 'Developer tools',
@@ -27,6 +29,13 @@ module.exports = {
            '/00-visual-studio-community/README.md',
            '/00-visual-code/README.md',
            '/00-git/README.md',           
+        ]
+      },
+      {
+        text: 'Version control fundamentals',
+        children: [
+          '/30-version-control-fundamentals/README.md',
+          '/31-github-teamwork/README.md',
         ]
       },
       {
