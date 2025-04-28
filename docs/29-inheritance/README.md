@@ -364,9 +364,9 @@ Console.WriteLine(thomas);
 
 ::: codeoutput
 ```
-Ricky Rolly &lt;ricky.rolly@student.vives.be&gt;
-Piere Makkers &lt;piere.makkers@vives.be&gt;
-Thomas Ferenzy &lt;thomas.ferenzy@student.vives.be&gt;
+Ricky Rolly <ricky.rolly@student.vives.be>
+Piere Makkers <piere.makkers@vives.be>
+Thomas Ferenzy <thomas.ferenzy@student.vives.be>
 ```
 :::
 
