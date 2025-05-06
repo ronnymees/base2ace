@@ -12,5 +12,5 @@
   # Default build command.
   command = "npm run build"
 
-  [build.environment]
+[build.environment]
   NODE_VERSION = "22.15.0"
