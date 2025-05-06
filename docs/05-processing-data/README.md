@@ -1,9 +1,8 @@
 ---
-description: A computer program typically processes its stored data. This chapter focusses on the tools available to manipulate basic pieces of data.
 title: 05 - Processing Data
 ---
 
-# Chapter 05 - Processing Data
+# Chapter 5 - Processing Data
 
 ![Basic C# Operators](./img/basic_csharp_operators.png)
 
@@ -180,9 +179,9 @@ Console.WriteLine("The result is " + result);
 ```
 
 ::: codeoutput
-```
+<pre>
 The result is 35
-```
+</pre>
 :::
 
 Would you have known that the result is `35`? By using parentheses this becomes much clearer and the chance of making a mistake is a lot smaller.
@@ -199,9 +198,9 @@ Console.WriteLine("The result is " + result);
 ```
 
 ::: codeoutput
-```
+<pre>
 The result is 35
-```
+</pre>
 :::
 
 More info on operator precedence and associativity can be found at [https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/).

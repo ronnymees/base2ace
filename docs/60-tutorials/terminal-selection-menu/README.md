@@ -1,15 +1,10 @@
 ---
-description: A tutorial on how to create a terminal selection menu
 title: Terminal Selection Menu
 ---
-
-<!-- TODO: Turn it into a library that we can use in other apps -->
 
 # Tutorial - Terminal Selection Menu
 
 This tutorial will guide you through the process of making a dynamic selection menu for a terminal application that can be controlled using the arrow-keys.
-
-<!-- TODO: Add GIF example here of the end result -->
 
 ## First Things First
 
@@ -21,7 +16,8 @@ First of we'll need to think about what the application should do and how we wil
 
 Let's take a look at some examples. First of the general menu idea:
 
-```
+::: codeoutput
+<pre>
 What option would you like to pick?
 
   > The first option <
@@ -31,11 +27,13 @@ What option would you like to pick?
 
 Press the up and down arrows to choose an option.
 Hit ENTER to confirm and continue.
-```
+</pre>
+:::
 
 Pressing the down key should result in the selection moving to the new option:
 
-```
+::: codeoutput
+<pre>
 What option would you like to pick?
 
     The first option
@@ -45,13 +43,16 @@ What option would you like to pick?
 
 Press the up and down arrows to choose an option.
 Hit ENTER to confirm and continue.
-```
+</pre>
+:::
 
 Once the user has made a choice we should be able to identify the selected item:
 
-```
+::: codeoutput
+<pre>
 Thank you for choosing "The second option".
-```
+</pre>
+:::
 
 This is basically what the menu should be able to do.
 
@@ -254,11 +255,11 @@ static void Main(string[] args)
 The result should be
 
 ::: codeoutput
-```
+<pre>
 Welcome to the Tutorial - Terminal Selection Menu
 
 Please select your favorite food from the options.
-```
+</pre>
 :::
 
 Congratulations. We are of to a good start.
@@ -422,7 +423,7 @@ Why not use a foreach-loop construct here ? At this point we actually could. But
 When we run this, we should get the following output in the terminal:
 
 ::: codeoutput
-```
+<pre>
 Welcome to the Tutorial - Terminal Selection Menu
 
 Please select your favorite food from the options.
@@ -431,7 +432,7 @@ Please select your favorite food from the options.
     Hamburgers
     Fries
     Pizza
-```
+</pre>
 :::
 
 One last thing to take into account is a safe-guard for the `AddItem()` method. Currently the method allows `null` references to be inserted into the menu, which might give problems later on. In the case of a menu, a `null` reference can be considered invalid, so we should handle this case and make sure no `null` references can be inserted into the `List`.
@@ -509,7 +510,7 @@ static void Main(string[] args)
 It seems like everything is working as expected:
 
 ::: codeoutput
-```
+<pre>
 Welcome to the Tutorial - Terminal Selection Menu
 
 Please select your favorite food from the options.
@@ -518,7 +519,7 @@ Please select your favorite food from the options.
     Hamburgers
     Fries
     Pizza
-```
+</pre>
 :::
 
 ## The Selected Item
@@ -689,7 +690,7 @@ public class Menu
 If we run the application again we should see the first item of the list as being highlighted as selected.
 
 ::: codeoutput
-```
+<pre>
 Welcome to the Tutorial - Terminal Selection Menu
 
 Please select your favorite food from the options.
@@ -698,7 +699,7 @@ Please select your favorite food from the options.
     Hamburgers
     Fries
     Pizza
-```
+</pre>
 :::
 
 ## Altering the Selection
@@ -886,7 +887,7 @@ static void Main(string[] args)
 ```
 
 ::: codeoutput
-```
+<pre>
 Please select your favorite food from the options.
 
 Please select your favorite food from the options.
@@ -909,7 +910,7 @@ Please select your favorite food from the options.
     Hamburgers
     Fries
     Pizza
-```
+</pre>
 :::
 
 Very nice.
@@ -1050,7 +1051,7 @@ static void Main(string[] args)
 ```
 
 ::: codeoutput
-```
+<pre>
 Welcome to the Tutorial - Terminal Selection Menu
 
 Please select your favorite food from the options.
@@ -1089,7 +1090,7 @@ Please select your favorite food from the options.
     Hamburgers
     Fries
     Pizza
-```
+</pre>
 :::
 
 ## Getting Selected Item
@@ -1244,7 +1245,7 @@ static void Main(string[] args)
 ANd it seems to work fine.
 
 ::: codeoutput
-```
+<pre>
 Welcome to the Tutorial - Terminal Selection Menu
 
 Please select your favorite food from the options.
@@ -1285,7 +1286,7 @@ Please select your favorite food from the options.
     Fries
     Pizza
 Selected Item: Spaghetti
-```
+</pre>
 :::
 
 ## Keyboard Input

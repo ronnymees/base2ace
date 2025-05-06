@@ -1,5 +1,4 @@
 ---
-description: Libraries allow classes and logic to be shared among applications and projects
 title: 42 - Creating Libraries
 ---
 

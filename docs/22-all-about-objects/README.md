@@ -1,5 +1,4 @@
 ---
-description: Object oriented programming is the art of letting objects talk to each other.
 title: 22 - All About Objects
 ---
 

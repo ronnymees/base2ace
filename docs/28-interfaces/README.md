@@ -1,5 +1,4 @@
 ---
-description: Interfaces allow us to define contracts.
 title: 28 - Interfaces
 ---
 
@@ -139,9 +138,9 @@ Console.WriteLine(circle.AsJson());     // JSON Representation
 ```
 
 ::: codeoutput
-```
+<pre>
 { "radius": 12.3, "area": 475.2915525615999 }
-```
+</pre>
 :::
 
 While a `User` class has nothing in common with a `Circle` class it is perfectly possible to make users JSON representable by implementing the `IJsonRepresentable` interface.
@@ -179,10 +178,10 @@ Console.WriteLine(user.AsJson());
 ```
 
 :::codeoutput
-```
+<pre>
 { "radius": 12.3, "area": 475.2915525615999 }
 { "firstname": "Nico", "lastname": "De Witte"}
-```
+</pre>
 :::
 
 ## Loosely Coupling using Interfaces
@@ -210,10 +209,10 @@ Console.WriteLine(user.AsJson());
 ```
 
 :::codeoutput
-```
+<pre>
 { "radius": 12.3, "area": 475.2915525615999 }
 { "firstname": "Nico", "lastname": "De Witte"}
-```
+</pre>
 :::
 
 This code outputs exactly the same as the previous implementation. The big difference however here is that the reference `circle` can now only be used to access the methods and properties declared in the `IJsonRepresentable` interface. While the object itself is still of type `Circle`, the variable has a type of `IJsonRepresentable`.
@@ -253,10 +252,10 @@ internet.Send(user);
 ```
 
 :::codeoutput
-```
+<pre>
 Beep Boop Ping Pong ... { "radius": 12.3, "area": 475.2915525615999 }
 Beep Boop Ping Pong ... { "firstname": "Nico", "lastname": "De Witte"}
-```
+</pre>
 :::
 
 The big problem here is that the class `MessageSender` is tightly coupled with the classes `User` and `Circle`. Every class that we would want to able to send would require a separate method in the `MessageSender` class.

@@ -1,5 +1,4 @@
 ---
-description: Abstraction allows us to hide complex component behind a simple interface.
 title: 21 - Abstraction
 ---
 

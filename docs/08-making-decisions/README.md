@@ -1,9 +1,8 @@
 ---
-description: This chapter introduces the basic constructs that allow branching inside your application.
 title: 08 - Making Decisions
 ---
 
-# Chapter 08 - Making Decisions
+# Chapter 8 - Making Decisions
 
 The statements inside your source files are **generally executed from top to bottom**, in the order that they appear. Control flow constructs, however, break up the flow of execution by employing **decision making**, enabling your program to **conditionally execute particular blocks of code**. This section describes the decision-making statements `if`, `if-else`, and `switch` supported by the C# programming language.
 
@@ -98,11 +97,11 @@ if (studentScore < 70)
 ```
 
 ::: codeoutput
-```
+<pre>
 Your score is 30%
 Come on buddy, you will need to work a little harder.
 You can do it. Still got some time till the exams.
-```
+</pre>
 :::
 
 If the condition evaluates to `false` (meaning that the score is equal or above 70), control jumps to the end of the if statement.
@@ -159,10 +158,10 @@ else
 ```
 
 ::: codeoutput
-```
+<pre>
 Your score is 85%
 Good job. Keep up the good work.
-```
+</pre>
 :::
 
 ## Nesting if-else statements
@@ -193,11 +192,11 @@ else
 ```
 
 ::: codeoutput
-```
+<pre>
 Your score is 30%
 Come on miss, you will need to work a little harder.
 You can do it. Still got some time till the exams.
-```
+</pre>
 :::
 
 A nested if-else construct can also be used to create multiple branches (paths of execution) based on different conditions. Take for example the code below that display a more user-friendly message to the student.

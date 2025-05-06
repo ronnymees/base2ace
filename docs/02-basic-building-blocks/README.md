@@ -1,11 +1,8 @@
 ---
-description: This chapter introduces the necessary buildings blocks of almost every programming language. It also introduces flowcharts - a graphical way of representing application logic.
 title: 02 - Basic Building Blocks
 ---
 
-<!-- <slides link="/slides/slides-chapter-02" /> -->
-
-# Chapter 02 - Basic Building Blocks
+# Chapter 2 - Basic Building Blocks
 
 ![Basic Building Blocks of a Programming Language](./img/building_blocks.png)
 

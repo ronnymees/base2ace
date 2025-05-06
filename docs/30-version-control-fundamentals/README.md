@@ -1,5 +1,11 @@
 # Basics of Git and GitHub
 
+> 🌐 Supporting learning material
+>
+> LinkedIn Learning course: [Learning Git and GitHub](https://www.linkedin.com/learning/learning-git-and-github-14213624/travel-the-multiverse-with-git-and-github)
+>
+> Cheatsheet: [Cheatsheet GIT](/files/github-git-cheat-sheet.pdf)
+
 In the software world we will be using Git & GitHub as a **version control management system** that enables us to have **versions** of our sofware, keep **track of the changes** that where made and make branches to **safely develop** new content without the risk of messing up the live version.
 
 Here is some terminology we will be using:
@@ -137,9 +143,5 @@ When working with different local copy's (maybe these are local copies of differ
 * `git fetch`: only retrieves the latest commit history from the remote repository, but it does not affect the local copy.
 * `git pull origin master`: merges the master branch on the remote with the local copy.
 
-:::tip 💡Learning Tip
-You can also follow the video tutorial on [LinkedIn Learning](https://www.linkedin.com/learning/learning-git-and-github-14213624/travel-the-multiverse-with-git-and-github).
 
-You are free to use [this cheat sheet](/files/github-git-cheat-sheet.pdf)
-:::
 

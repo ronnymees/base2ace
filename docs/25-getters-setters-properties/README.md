@@ -1,5 +1,4 @@
 ---
-description: This chapter introduces data hiding and the tools that support it
 title: 25 - Getters, Setters and Properties
 ---
 
@@ -215,12 +214,12 @@ static void Main(string[] args)
 ```
 
 ::: codeoutput
-```
+<pre>
 Start location of point [0, 0]
 Moving the point to [15.66, -3.12]
 Moving the point to [12, 10]
 Moving the point to [66, 10]
-```
+</pre>
 :::
 
 ### UML Class Diagrams of Point
@@ -473,10 +472,10 @@ static void Main(string[] args)
 ```
 
 ::: codeoutput
-```
+<pre>
 The radius of the circle is 0
 The radius of the circle is 66
-```
+</pre>
 :::
 
 ### Automatically Implemented Properties
@@ -635,10 +634,10 @@ static void Main(string[] args)
 ```
 
 ::: codeoutput
-```
+<pre>
 Geometry.Point
 Geometry.Point
-```
+</pre>
 :::
 
 The C# `ToString()` method is used when we need a `string` representation of an object. It is defined in the special class `Object`.
@@ -721,11 +720,11 @@ static void Main(string[] args)
 ```
 
 ::: codeoutput
-```
+<pre>
 [0, 0]
 Moving the point to [15.66, -3.12]
 Moving the point to [12, 10]
-```
+</pre>
 :::
 
 ::: warning 🙅‍♀️ Don't print inside Classes

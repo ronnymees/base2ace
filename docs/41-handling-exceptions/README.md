@@ -1,5 +1,4 @@
 ---
-description: Exceptions are used to indicate exceptional situations that may fail the application.
 title: 41 - Handling Exceptions
 ---
 
@@ -195,9 +194,6 @@ Note that a method can catch different types of exceptions. In this example the 
 
 The next sections will demonstrate how to do this all.
 
-<!-- Refactor this next year. Approach is good I think but we should also close the file. -->
-<!-- We should also explain the finally keyword -->
-
 ## Trying and Catching Exceptions
 
 Basically to catch exceptions three things are required:
@@ -232,7 +228,7 @@ class Program
 ```
 
 ::: codeoutput
-```
+<pre>
 Welcome to this Exception Demo
 
 Please enter your age [0, 120]: 150
@@ -240,7 +236,7 @@ Please enter your age [0, 120]: -3
 Please enter your age [0, 120]: 15
 
 Good to know that you are 15 years old.
-```
+</pre>
 :::
 
 But what happens when the user enters for example `a` or `twelve`? Well in that cases an exception is thrown by the `ToInt32()` method of type `FormatException` as can be seen from the screenshot.
@@ -258,6 +254,11 @@ catch (Exception e)
 {
   // Solving the problem goes here
 }
+finally
+{
+  // Code that needs to be executed after the try or catch code
+  // For example for closing a connection
+}
 ```
 
 So to catch exceptions one needs to
@@ -265,6 +266,7 @@ So to catch exceptions one needs to
 * place a try-block with the code inside that may generate the exception
 * the type of the exception (name of the class) that will be thrown
 * a catch-block that needs to be executed in case the specific type of exception is thrown
+* a finally-block is optional and is needed if code needs to be executed if the try succeeds or not
 
 So, the previous example refactored with exceptions may look like:
 
@@ -305,7 +307,7 @@ Note that the type of the exception is `FormatException`. This information can b
 Solving the problem here is actually quite easy. By setting the value of `age` to `-1` we ensure that the while-loop iterates again and thereby requests new input from the user.
 
 ::: codeoutput
-```
+<pre>
 Welcome to this Exception Demo
 
 Please enter your age [0, 120]: -5
@@ -315,7 +317,7 @@ Please enter your age [0, 120]: twelfe
 Please enter your age [0, 120]: 12
 
 Good to know that you are 12 years old.
-```
+</pre>
 :::
 
 It is really important to understand that statements, inside the try-block, that follow after the method that has thrown an exception are not executed anymore. Execution jumps to a matching catch-block instead.
@@ -358,7 +360,7 @@ class Program
 This can be seen in the output. Notice how the `Console.WriteLine("Thank you for providing your age");` statement is not executed when the user entered `twenty` and thereby triggered the exception.
 
 ::: codeoutput
-```
+<pre>
 Welcome to this Exception Demo
 
 Please enter your age [0, 120]: -12
@@ -368,7 +370,7 @@ Please enter your age [0, 120]: 88
 Thank you for providing your age
 
 Good to know that you are 88 years old.
-```
+</pre>
 :::
 
 ## Catching More Exceptions
@@ -446,7 +448,7 @@ class Program
 That a user-friendly and crash-proof application.
 
 ::: codeoutput
-```
+<pre>
 Welcome to this Exception Demo
 
 Please enter your age [0, 120]: -12
@@ -457,7 +459,7 @@ Please enter your age [0, 120]: 18
 Thank you for providing your age
 
 Good to know that you are 18 years old.
-```
+</pre>
 :::
 
 ## Build in Exceptions
@@ -571,7 +573,7 @@ class Program
 The `Message` property actually contains a *human-readable* description of the exception. This can often be useful when logging the exception or may even be passed to the user as extra information.
 
 ::: codeoutput
-```
+<pre>
 Welcome to this Exception Demo
 
 Please enter your age [0, 120]: dd
@@ -580,7 +582,7 @@ Please enter your age [0, 120]: 12
 Thank you for providing your age
 
 Good to know that you are 12 years old.
-```
+</pre>
 :::
 
 The `StackTrace` property will display the stack-trace as is shown in Visual Studio when the application encounters an exception. For example

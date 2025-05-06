@@ -1,4 +1,8 @@
-# 01 - Computer Programming
+---
+title: 01 - Computer Programming
+---
+
+# Chapter 1 - Computer Programming
 
 ![How does Computer Programming work](./img/how_does_it_work.png)
 

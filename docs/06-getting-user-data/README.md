@@ -1,9 +1,8 @@
 ---
-description: Applications are all about processing data. This data has to be generated or retrieved from somewhere. Often data needs to be requested from the user.
 title: 06 - Getting User Data
 ---
 
-# Chapter 06 - Getting User Data
+# Chapter 6 - Getting User Data
 
 ![User Input](./img/user_input.png)
 
@@ -31,10 +30,10 @@ Console.WriteLine("Hello " + name + ". Very nice to meet you.");
 ```
 
 ::: codeoutput
-```
+<pre>
 Please enter your name: Nico
 Hello Nico. Very nice to meet you.
-```
+</pre>
 :::
 
 Some remarks are needed about this code example:
@@ -58,10 +57,10 @@ Console.WriteLine("How interesting that you are " + age + " years young.");
 ```
 
 ::: codeoutput
-```
+<pre>
 Please enter your age: 33
 How interesting that you are 33 years young.
-```
+</pre>
 :::
 
 Take note on how the `ageText` variable is passed to the `ToInt32()` method. Again the `ToInt32()` method returns a resulting value. If we wish to save this for later processing, it needs to be stored in a variable (`age` in this case).
@@ -95,10 +94,10 @@ Console.WriteLine("You are quite tall with a height of " + height + "m.");
 ```
 
 ::: codeoutput
-```
+<pre>
 Please enter your height in meters: 1.86
 You are quite tall with a height of 1.86m.
-```
+</pre>
 :::
 
 ### Generating Random Numbers

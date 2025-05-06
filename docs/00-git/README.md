@@ -1,18 +1,10 @@
----
-title: Git and GitHub
----
-
 # Git and GitHub
 
 ## Git
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-### Installation on Windows
-
-This section will guide you through the installation process of the Git command line tool for Windows.
-
-#### Downloading Git
+### Downloading Git
 
 Navigate to [git-scm.com](https://git-scm.com) and click the **Download for Windows** link. The download process should start automatically.
 
@@ -22,7 +14,7 @@ If your download doesn't start automatically, just click the `64-bit Git for Win
 
 ![](./images/step-02-git-downloading.png)
 
-#### Installation Wizard
+### Installation Wizard
 
 Start the wizard by executing the installer and follow the steps of the installation wizard.
 
@@ -72,7 +64,7 @@ Once `Install` is clicked, the installation wizard will start with the installat
 
 When the installation procedure is finished, you can close the installation wizard by clicking `Next`.
 
-#### Testing installation
+### Testing installation
 
 In the Windows start menu, search for the "Powershell" application by typing "Powershell" in the search box.
 
@@ -87,29 +79,6 @@ git --version
 If all goes well, it should tell you the current version of the installed Git client, and should not show any errors.
 
 ![](./images/step-20-git-version.png)
-
-Git is now ready to be used.
-
-### Installation on Linux
-
-Many linux distributions these days have Git pre-installed. If not, or its an older version, then just open up a terminal window and install/update Git using `apt`:
-
-```bash
-sudo apt update
-sudo apt install git
-```
-
-![](./images/linux-step-01-install.png)
-
-Test your installation using:
-
-```bash
-git --version
-```
-
-If all goes well, it should tell you the current version of the installed Git client, and should not show any errors.
-
-![](./images/linux-step-02-git-version.png)
 
 Git is now ready to be used.
 
@@ -239,7 +208,7 @@ Now open a PowerShell window in that location by selecting `Open Windows PowerSh
 
 ![](./images/step-09-powershell.png)
 
-::: tip
+::: tip Tip
 You can also open a PowerShell window in any directory by holding down shift while right-clicking on a directory. Then choose the option `Open PowerShell window here`.
 :::
 
@@ -319,7 +288,7 @@ You dashboard should show an option `Get the Student Developer Pack`.
 
 ![](./images/step-07-student-developer.png)
 
-::: tip
+::: tip Tip
 If you do not get the option on your dashboard, you can also navigate to [https://education.github.com/](https://education.github.com/)and select the `Github Student Developer Pack`.
 :::
 

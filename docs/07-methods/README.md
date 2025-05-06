@@ -1,9 +1,8 @@
 ---
-description: Defining custom methods is a daily job of any programmer. This chapter introduces the basics of methods.
 title: 07 - Methods
 ---
 
-# Chapter 07 - Methods
+# Chapter 7 - Methods
 
 A method (or function in that matter) is a **named block of code** that **performs a single specific task**.
 
@@ -370,10 +369,10 @@ namespace SumApp
 ```
 
 ::: codeoutput
-```
+<pre>
 The sum of 5 and 12 is 17.
 The sum of 55 and 66 is 121.
-```
+</pre>
 :::
 
 As can be seen from the source code, one can pass both literal values as well as other variables to a method. Do note that you have to pass them in the **correct order** and make sure they are of the **correct type**, otherwise your program will not run.
@@ -412,7 +411,7 @@ namespace MathApp
 Notice that no variable is created to hold the value of `number * number` inside the method. Instead, the value is immediately returned. While it would not have been wrong to create a temporary variable to hold the result, it would make the code longer than needed.
 
 ::: codeoutput
-```
+<pre>
 The result of 12 squared is 144
-```
+</pre>
 :::

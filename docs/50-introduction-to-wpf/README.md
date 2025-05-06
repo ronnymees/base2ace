@@ -1,5 +1,4 @@
 ---
-description: Learn the basics of modern day C# GUI design using WPF
 title: 50 - Introduction to WPF
 ---
 

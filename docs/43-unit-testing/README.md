@@ -1,5 +1,4 @@
 ---
-description: Testing code is important to make sure no bugs are introduced
 title: 43 - Unit Testing
 ---
 

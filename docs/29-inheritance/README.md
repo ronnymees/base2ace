@@ -1,5 +1,4 @@
 ---
-description: Inheritance allows a class to inherit the properties and methods of other classes.
 title: 29 - Inheritance
 ---
 
@@ -363,11 +362,11 @@ Console.WriteLine(thomas);
 ```
 
 ::: codeoutput
-```
-Ricky Rolly <ricky.rolly@student.vives.be>
-Piere Makkers <piere.makkers@vives.be>
-Thomas Ferenzy <thomas.ferenzy@student.vives.be>
-```
+<pre>
+Ricky Rolly &lt;ricky.rolly@student.vives.be&gt;
+Piere Makkers &lt;piere.makkers@vives.be&gt;
+Thomas Ferenzy &lt;thomas.ferenzy@student.vives.be&gt;
+</pre>
 :::
 
 So in the previous example, the `Student` object `thomas` is stored in a variable of type `Person`, but at object level, C# still knows that this object is actually an object of type `Student`.

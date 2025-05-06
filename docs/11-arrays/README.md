@@ -1,5 +1,4 @@
 ---
-description: Applications often have to process lists of data. To store this information arrays are a basic necessity.
 title: 11 - Arrays
 ---
 
@@ -122,9 +121,9 @@ for (int i = 0; i < 5; i++)
 Of course the output will be different for you when running this code as the numbers are generated randomly.
 
 ::: codeoutput
-```
+<pre>
 61 70 28 95 48
-```
+</pre>
 :::
 
 From the code above it can be seen that the array elements can be accessed by using the square brackets `[]` with the index specified between them.
@@ -340,11 +339,11 @@ for (int r = 0; r < values.GetLength(0); r++)
 ```
 
 ::: codeoutput
-```
+<pre>
 The 2D array has 2 rows  and 3 columns
 1 2 3
 -1 -2 -3
-```
+</pre>
 :::
 
 The same principle goes for multidimensional arrays.
